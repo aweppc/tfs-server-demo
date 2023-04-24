@@ -5,7 +5,7 @@ import { readManifest } from './read-manifest';
 import { RouteConfig } from '../types';
 import { mergeStreams } from '../../utils/streams';
 import { Root } from '../../../application/Root';
-import { HtmlPage } from '../../../application/html-page';
+import { HtmlPage } from './html-page';
 
 export const appRoute: RouteConfig = {
     method: 'GET',
