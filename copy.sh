@@ -1,4 +1,4 @@
 #!/bin/sh
 
 cp ./package.json yarn.lock ./build/server
-mv ./build/static/manifest.json ./build/server/manifest.json
+mv ./build/static/*.json ./build/static/*.js ./build/static/*.css ./build/server/

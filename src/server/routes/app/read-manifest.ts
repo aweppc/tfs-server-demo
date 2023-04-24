@@ -12,7 +12,7 @@ const memo = <TArgs extends any[], TRes>(fn: (...args: TArgs) => TRes) => {
     return memoizedFn
 }
 
-const readStaticManifest = async () => {
+const readStaticManifest = () => {
     return __non_webpack_require__(path.join(process.cwd(), 'manifest.json'));
 }
 
